@@ -68,7 +68,7 @@ p{
     margin-left: 15px;
 }
 .header{
-     background: url(/img/background.jpg);
+     background: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -385,6 +385,7 @@ line-height: 20px;
     margin-top: 200px;
     }
     .boton_h1_zag3{
+        margin: 0 auto;
     width:600px ;
     font-family: 'Montserrat';
     font-style: normal;
@@ -412,7 +413,7 @@ line-height: 20px;
         margin-bottom: 15px;
         }
         .video_text{
-    
+    margin-bottom: 50px;
             color: #737373;
             font-family: Montserrat;
             font-style: normal;
@@ -420,6 +421,69 @@ line-height: 20px;
             font-size: 14px;
             line-height: 20px;
             text-align: left;
+            width: 330px;
+        }
+        .werre{
+            margin-left: 52px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+        }
+        .video_div{    margin-top: 100px;
+            justify-content: space-between;
+            width: 1046px;
+            display: flex;
+        }
+        .text_in_video{
+            text-align: left;
+        }
+        .h1_video{
+            margin-top: 10px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 57px;
+/* or 142% */
+
+letter-spacing: 0.2px;
+
+/* text-color */
+width: 333px;
+color: #252B42;
+
+        }
+        .info_img_text{
+            align-items: center;
+            display: flex;
+        }
+        .info_img_text img{
+      margin-right: 20px;
+        }
+        .info_img_text2{
+            align-items: center;
+            display: flex;
+        }
+        .info_img_text p{
+            margin-bottom: 5px;
+            width: 286px;
+        }
+        .info_video_1{
+            margin-bottom: 20px;
+        }
+        .companii{display: flex;
+            justify-content: center;
             margin: 0 auto;
-            width: 160px;
+            height: 339px;
+            width:  1440px;
+            color: #FaFaFa;
         }
